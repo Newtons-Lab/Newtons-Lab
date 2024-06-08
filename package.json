@@ -15,6 +15,16 @@
   "license": "ISC",
   "dependencies": {
     "@nestjs/axios": "^3.0.2",
-    "axios": "^1.7.2"
+    "@nestjs/core": "^10.3.9",
+    "@nestjs/platform-express": "^10.3.9",
+    "@nestjs/typeorm": "^10.0.2",
+    "@types/antd": "^1.0.0",
+    "@types/next": "^9.0.0",
+    "antd": "^5.18.0",
+    "axios": "^1.7.2",
+    "cookie-parser": "^1.4.6",
+    "next": "^14.2.3",
+    "notistack": "^3.0.1",
+    "typeorm": "^0.3.20"
   }
 }
