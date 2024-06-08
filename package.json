@@ -1,0 +1,20 @@
+{
+  "name": "@marblism/monorepo",
+  "version": "3.1.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "pnpm install && pnpm run --filter server init ; pnpm run --filter web init",
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --filter server build && pnpm run --filter web build",
+    "start": "pnpm run --parallel start",
+    "ensure": "pnpm -v || npm install -g pnpm && pnpm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/axios": "^3.0.2",
+    "axios": "^1.7.2"
+  }
+}
