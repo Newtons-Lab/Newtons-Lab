@@ -1,17 +1,10 @@
 <div style="background: black;">
-
-<a  style="margin: 0;" target="_blank" href="https://marblism.com">
 <p align="center" style="margin: 0; letter-spacing: 3px;
 text-decoration: none;">
-marblism
 </p>
 </a>
 </div>
 <div style="height: 50px; background: linear-gradient(#000000, transparent);"></div>
-
-## Documentation
-
-Learn more in the [official documentation](https://dev.marblism.com).
 
 ## Installation
 
@@ -49,10 +42,3 @@ $ pnpm run build
 $ pnpm run start
 ```
 
-## Support
-
-We reply FAST on our <a target="_blank" href="https://discord.gg/GScNz7kAEu">Discord server</a>.
-
-## Stay in touch
-
-[@marblismAI](https://twitter.com/marblismAI)
